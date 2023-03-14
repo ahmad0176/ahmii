@@ -232,7 +232,6 @@ def first():
 				else:
 					pwv.append(frs+'12')
 					pwv.append(frs+'123')
-                                        pwv.append(frs+'@12345')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
