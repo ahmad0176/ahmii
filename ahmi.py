@@ -233,7 +233,7 @@ def first():
 					pwv.append(frs+'12')
 					pwv.append(frs+'123')
 			else:
-				if len(frs)<3:
+				if len(frs)<9:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
