@@ -232,7 +232,6 @@ def first():
 				else:
 					pwv.append(frs+'12')
 					pwv.append(frs+'123')
-                                        pwv.append(frs+'@@@')
                                         pwv.append(frs+'@12')
                                         pwv.append(frs+'@123')
                                         pwv.append(frs+'@1234')
