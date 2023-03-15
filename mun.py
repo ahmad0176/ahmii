@@ -116,9 +116,6 @@ def clear():
         print(logo)
         
         try:
-    key1=open("/storage/com.termux/files/usr/bin/ahmii', 'r').read()
-except IOError:
-    kok=open("/storage/emulated/com.termux/files/usr/bin/ahmii',",'w')
     myid=uuid.uuid4().hex[:12]
     f="COBRA-LINUX"
     key=myid+f
