@@ -114,23 +114,6 @@ def linex():
 def clear():
         os.system('clear')
         print(logo)
-        
-        try:
-a=requests.get("https://github.com/ahmadxmalik1/APPROVAL/blob/main/approval.txt").text
-b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
-key2=str(key1)  
-if key2 in b:
-    pass
-    
-else:
-    os.system("clear")
-    print
-    print("Your key  : "+key2)
-    print("\n\t\tContact Admin ")
-    os.system('xdg-open https://www.facebook.com/ERR0RS')
-    exit()
-        
 loop=0
 oks=[]
 cps=[]
