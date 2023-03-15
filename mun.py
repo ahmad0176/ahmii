@@ -116,13 +116,6 @@ def clear():
         print(logo)
         
         try:
-    myid=uuid.uuid4().hex[:12]
-    f="COBRA-LINUX"
-    key=myid+f
-    kok.write(key)
-    kok.close()
-    print(key)
-
 a=requests.get("https://github.com/ahmadxmalik1/APPROVAL/blob/main/approval.txt").text
 b=str(a)
 key1=open("/storage/emulated/0/android8.txt",'r').read()
